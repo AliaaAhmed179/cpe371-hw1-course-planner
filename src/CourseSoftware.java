@@ -9,7 +9,7 @@ public class CourseSoftware {
     private int capacity;
     private List<String> registeredStudents;
 
-    public Course(String courseCode, String courseName, int credits,
+    public CourseSoftware(String courseCode, String courseName, int credits,
                   String instructor, int capacity) {
         this.courseCode = courseCode;
         this.courseName = courseName;
