@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CoursePlanner {
-    private List<Course> courses;
+    private List<CourseSoftware> courses;
 
     public CoursePlanner() {
         courses = new ArrayList<>();
