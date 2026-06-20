@@ -45,5 +45,5 @@ Stores course registrations.
 
 ## Student Information
 
-Name: YOUR NAME
-ID: YOUR ID
+Name: Aliaa
+ID: 2231164738
