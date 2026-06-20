@@ -6,8 +6,8 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         // Sample seed data
-        planner.addCourse(new Course("CPE371", "Software Engineering", 3, "Dr. Ahmad", 2));
-        planner.addCourse(new Course("CPE201", "Data Structures", 3, "Dr. Salem", 1));
+        planner.addCourse(new CourseSoftware("CPE371", "Software Engineering", 3, "Dr. Ahmad", 2));
+        planner.addCourse(new CourseSoftware("CPE201", "Data Structures", 3, "Dr. Salem", 1));
 
         boolean running = true;
         while (running) {
@@ -34,7 +34,7 @@ public class Main {
                     String instructor = scanner.nextLine();
                     System.out.print("Capacity: ");
                     int capacity = Integer.parseInt(scanner.nextLine());
-                    planner.addCourse(new Course(code, name, credits, instructor, capacity));
+                    planner.addCourse(new CourseSoftware(code, name, credits, instructor, capacity));
                     System.out.println("Course added.");
                     break;
 
