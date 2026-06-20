@@ -1,12 +1,13 @@
-# Features
 
-1. Search courses
-2. Register for courses
-3. Drop courses
-4. View schedule
-5. Check prerequisites
-6. Detect schedule conflicts
-7. View available seats
-8. Join waitlist
-9. Receive notifications
+# features.md
+
+1. Add a course
+2. Search courses by course code
+3. List all available courses
+4. Register a student in a course
+5. View student schedule
+6. Check course prerequisites
+7. Detect schedule conflicts
+8. View course capacity and available seats
+9. Display full courses
 10. Plan future semesters
