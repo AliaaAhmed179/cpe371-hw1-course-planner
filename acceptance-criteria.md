@@ -1,7 +1,7 @@
 # acceptance-criteria.md
 
 User Story 1
-Given courses exist in the system
+Given courses exist in the system//
 When a student searches for course code "CpE371"
 Then the matching course shall be displayed
 
