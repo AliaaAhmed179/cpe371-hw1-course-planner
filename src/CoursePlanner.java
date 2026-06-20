@@ -8,7 +8,7 @@ public class CoursePlanner {
         courses = new ArrayList<>();
     }
 
-    public void addCourse(Course course) {
+    public void addCourse(CourseSoftware course) {
         courses.add(course);
     }
 
@@ -17,13 +17,13 @@ public class CoursePlanner {
             System.out.println("No courses available.");
             return;
         }
-        for (Course c : courses) {
+        for (CourseSoftware c : courses) {
             System.out.println(c);
         }
     }
 
-    public Course searchCourse(String courseCode) {
-        for (Course c : courses) {
+    public CourseSoftware searchCourse(String courseCode) {
+        for (CourseSoftware c : courses) {
             if (c.getCourseCode().equalsIgnoreCase(courseCode)) {
                 return c;
             }
@@ -32,7 +32,7 @@ public class CoursePlanner {
     }
 
     public boolean registerStudent(String courseCode, String studentName) {
-        Course course = searchCourse(courseCode);
+        CourseSoftware course = searchCourse(courseCode);
         if (course == null) {
             System.out.println("Course not found.");
             return false;
@@ -46,7 +46,7 @@ public class CoursePlanner {
 
     public void displayFullCourses() {
         boolean foundAny = false;
-        for (Course c : courses) {
+        for (CourseSoftware c : courses) {
             if (c.isFull()) {
                 System.out.println(c);
                 foundAny = true;
