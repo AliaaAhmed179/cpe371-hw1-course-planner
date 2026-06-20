@@ -45,7 +45,7 @@ public class Main {
                 case "3":
                     System.out.print("Enter course code: ");
                     String searchCode = scanner.nextLine();
-                    Course found = planner.searchCourse(searchCode);
+                    CourseSoftware found = planner.searchCourse(searchCode);
                     System.out.println(found != null ? found : "Course not found.");
                     break;
 
