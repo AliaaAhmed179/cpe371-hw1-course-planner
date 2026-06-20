@@ -55,7 +55,7 @@ public class Main {
                     System.out.print("Student name: ");
                     String student = scanner.nextLine();
                     boolean ok = planner.registerStudent(regCode, student);
-                    if (ok) System.out.println("Registration successful.");
+                    if (ok) System.out.println("Registration completed successfully.");
                     break;
 
                 case "5":
